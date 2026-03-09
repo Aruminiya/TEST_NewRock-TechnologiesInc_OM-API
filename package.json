@@ -1,0 +1,24 @@
+{
+  "name": "newrock-technologiesinc_om-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/src/test-api.js",
+  "scripts": {
+    "dev": "tsc && node dist/src/test-api.js",
+    "build": "tsc",
+    "start": "node dist/src/test-api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
