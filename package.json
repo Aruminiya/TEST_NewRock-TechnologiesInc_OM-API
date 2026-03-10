@@ -5,7 +5,8 @@
   "type": "module",
   "main": "dist/src/test-api.js",
   "scripts": {
-    "dev": "tsc && node dist/src/test-api.js",
+    "dev": "tsc && node dist/src/app.js",
+    "dev:test-api": "tsc && node dist/src/test-api.js",
     "build": "tsc",
     "start": "node dist/src/test-api.js"
   },
