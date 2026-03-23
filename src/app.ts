@@ -1,6 +1,6 @@
 import http from 'http';
 
-const MONITOR_PORT = 8989;
+const MONITOR_PORT = 4022;
 
 const eventServer = http.createServer((req, res) => {
   // OM API 推送通常使用 GET 或 POST [cite: 120]
@@ -41,5 +41,5 @@ const eventServer = http.createServer((req, res) => {
 });
 
 eventServer.listen(MONITOR_PORT, () => {
-  console.log(`🚀 監聽伺服器啟動於 Port ${MONITOR_PORT}，請確保 OM 後台 Server 填寫 192.168.8.201:${MONITOR_PORT}`);
+  console.log(`🚀 監聽伺服器啟動於 Port ${MONITOR_PORT}，請確保 OM 後台 Server 填寫 192.168.8.62:${MONITOR_PORT}`);
 });
